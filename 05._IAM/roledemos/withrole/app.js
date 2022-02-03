@@ -2,8 +2,8 @@ var AWS = require('aws-sdk');
 
 var s3 = new AWS.S3();
 
-const BUCKET = "roletest"
-const KEY = "file.txt"
+const BUCKET = "davidroletest"
+const KEY = "unused1.txt"
 
 var params = {
   Bucket: BUCKET,
